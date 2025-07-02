@@ -1,0 +1,1380 @@
+[
+  {
+    "hostname": "P10VIOF041A",
+    "sea_sections": [
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "PRIMARY_SH",
+          "number of adapters": "5",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "4",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent33",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C20-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent34",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "5",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent12",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C5-T0"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent28",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C21-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF041B",
+    "sea_sections": [
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "BACKUP_SH",
+          "number of adapters": "5",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "4",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent33",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "3/1",
+          "priority": "2",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C20-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent34",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "5",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent12",
+            "hardware_path": "U5B61.001.WZS01RJ-P0-C5-T0"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent28",
+            "hardware_path": "U9080.HEX.78C01A8-V2-C21-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF042A",
+    "sea_sections": [
+      {
+        "sea_name": "ent28",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "PRIMARY_SH",
+          "number of adapters": "5",
+          "become backup/primary": "0/2",
+          "priority": "1",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "4",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS02T1-P0-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V3-C20-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF042B",
+    "sea_sections": [
+      {
+        "sea_name": "ent28",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "BACKUP_SH",
+          "number of adapters": "5",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS026W-P0-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS026W-P0-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS026W-P0-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS026W-P0-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS026W-P0-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "4",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS026W-P0-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS026W-P0-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "2/0",
+          "priority": "2",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS026W-P0-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V4-C20-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF043A",
+    "sea_sections": [
+      {
+        "sea_name": "ent28",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "PRIMARY_SH",
+          "number of adapters": "5",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "4",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS02T0-P1-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V5-C20-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF043B",
+    "sea_sections": [
+      {
+        "sea_name": "ent28",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "BACKUP_SH",
+          "number of adapters": "5",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "4",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "2/0",
+          "priority": "2",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS01RJ-P1-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V6-C20-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF044A",
+    "sea_sections": [
+      {
+        "sea_name": "ent28",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "PRIMARY_SH",
+          "number of adapters": "5",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "4",
+          "become backup/primary": "2/2",
+          "priority": "1",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "3/1",
+          "priority": "2",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS02T1-P1-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V7-C20-T0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hostname": "P10VIOF044B",
+    "sea_sections": [
+      {
+        "sea_name": "ent28",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "BACKUP_SH",
+          "number of adapters": "5",
+          "become backup/primary": "1/0",
+          "priority": "2",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent0",
+            "hardware_path": "U5B61.001.WZS026W-P1-C2-T0"
+          },
+          {
+            "adapter_name": "ent1",
+            "hardware_path": "U5B61.001.WZS026W-P1-C2-T1"
+          },
+          {
+            "adapter_name": "ent4",
+            "hardware_path": "U5B61.001.WZS026W-P1-C3-T0"
+          },
+          {
+            "adapter_name": "ent5",
+            "hardware_path": "U5B61.001.WZS026W-P1-C3-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent18",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C11-T0"
+          },
+          {
+            "adapter_name": "ent19",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C12-T0"
+          },
+          {
+            "adapter_name": "ent20",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C13-T0"
+          },
+          {
+            "adapter_name": "ent21",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C14-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent29",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "924",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS026W-P1-C2-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C15-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent30",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "4",
+          "become backup/primary": "2/3",
+          "priority": "2",
+          "vlans": "16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent7",
+            "hardware_path": "U5B61.001.WZS026W-P1-C3-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent31",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "PRIMARY",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "1",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS026W-P1-C4-T3"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C19-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "ent32",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "BACKUP",
+          "number of adapters": "2",
+          "become backup/primary": "3/1",
+          "priority": "2",
+          "vlans": "20",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent13",
+            "hardware_path": "U5B61.001.WZS026W-P1-C5-T1"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V8-C20-T0"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "hostname": "P10VIOF041A",
+    "sea_sections": [
+      {
+        "sea_name": "\u001b[m\u000f",
+        "properties": {
+          "ha_mode": "Sharing",
+          "state": "\u001b[m\u000fPRIMARY_SH\u001b[m\u000f",
+          "number of adapters": "5",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": {
+          "adapters": [
+            "ent16",
+            "ent0",
+            "ent1",
+            "ent4",
+            "ent5",
+            "ent18",
+            "ent19",
+            "ent20",
+            "ent21"
+          ]
+        },
+        "real_adapters": [
+          {
+            "adapter_name": "ent3",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C2-T3"
+          },
+          {
+            "adapter_name": "ent22",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C15-T0"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent23",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C16-T0"
+          },
+          {
+            "adapter_name": "ent24",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C17-T0"
+          },
+          {
+            "adapter_name": "ent25",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C18-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "\u001b[m\u000f",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "\u001b[m\u000fBACKUP\u001b[m\u000f",
+          "number of adapters": "2",
+          "become backup/primary": "1/1",
+          "priority": "2",
+          "vlans": "923",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent11",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C4-T3"
+          },
+          {
+            "adapter_name": "ent26",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C19-T0"
+          }
+        ],
+        "virtual_adapters": [
+          {
+            "adapter_name": "ent27",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C20-T0"
+          }
+        ]
+      },
+      {
+        "sea_name": "\u001b[m\u000f",
+        "properties": {
+          "ha_mode": "Auto",
+          "state": "\u001b[m\u000fPRIMARY\u001b[m\u000f",
+          "number of adapters": "2",
+          "become backup/primary": "0/1",
+          "priority": "1",
+          "vlans": "5",
+          "flags": "THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING"
+        },
+        "etherchannel": null,
+        "real_adapters": [
+          {
+            "adapter_name": "ent12",
+            "hardware_path": "U5B61.001.WZS02T0-P0-C5-T0"
+          },
+          {
+            "adapter_name": "ent28",
+            "hardware_path": "U9080.HEX.78C01A8-V1-C21-T0"
+          }
+        ],
+        "virtual_adapters": []
+      }
+    ]
+  }
+]

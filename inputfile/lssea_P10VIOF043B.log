@@ -1,0 +1,586 @@
+Execution date:
+Tue May  6 10:45:10 HKT 2025
+VIOS hostname:
+P10VIOF043B
+Firmware level: 
+sys0!system:MH1060_100 (t) MH1060_076 (p) MH1060_100 (t)
+fcs0!771089201410c606.070B08
+fcs1!771089201410c606.070B08
+fcs2!771089201410c606.070B08
+fcs3!771089201410c606.070B08
+ent0!b315211014101207.002800401000
+ent1!b315211014101207.002800401000
+ent2!b315211014101207.002800401000
+ent3!b315211014101207.002800401000
+fcs4!771089201410c606.070B08
+fcs5!771089201410c606.070B08
+fcs6!771089201410c606.070B08
+fcs7!771089201410c606.070B08
+ent4!b315211014101207.002800401000
+ent5!b315211014101207.002800401000
+ent6!b315211014101207.002800401000
+ent7!b315211014101207.002800401000
+ent8!b315211014101207.002800401000
+ent9!b315211014101207.002800401000
+ent10!b315211014101207.002800401000
+ent11!b315211014101207.002800401000
+ent12!8680ff1514100000.000901218000E641
+ent13!8680ff1514100000.000901218000E641
+ent14!8680ff1514100000.000901218000E641
+ent15!8680ff1514100000.000901218000E641
+Card info: 
+INSTALLED RESOURCE LIST
+
+The following resources are installed on the machine.
++/- = Added or deleted from Resource List.
+*   = Diagnostic support not available.
+	
+  Model Architecture: chrp
+  Model Implementation: Multiple Processor, PCI bus
+	
++ sys0                                                                          System Object
++ sysplanar0                                                                    System Planar
+* pci6             U5B61.001.WZS01RJ-P1                                         PCI Express Bus
++ ent12            U5B61.001.WZS01RJ-P1-C5-T0                                   PCIe3 4-Port 10GbE Base-T Adapter (8680ff1514100000)
++ ent13            U5B61.001.WZS01RJ-P1-C5-T1                                   PCIe3 4-Port 10GbE Base-T Adapter (8680ff1514100000)
++ ent14            U5B61.001.WZS01RJ-P1-C5-T2                                   PCIe3 4-Port 10GbE Base-T Adapter (8680ff1514100000)
++ ent15            U5B61.001.WZS01RJ-P1-C5-T3                                   PCIe3 4-Port 10GbE Base-T Adapter (8680ff1514100000)
+* pci5             U5B61.001.WZS01RJ-P1                                         PCI Express Bus
++ ent8             U5B61.001.WZS01RJ-P1-C4-T0                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent9             U5B61.001.WZS01RJ-P1-C4-T1                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent10            U5B61.001.WZS01RJ-P1-C4-T2                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent11            U5B61.001.WZS01RJ-P1-C4-T3                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
+* pci4             U5B61.001.WZS01RJ-P1                                         PCI Express Bus
++ ent4             U5B61.001.WZS01RJ-P1-C3-T0                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent5             U5B61.001.WZS01RJ-P1-C3-T1                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent6             U5B61.001.WZS01RJ-P1-C3-T2                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent7             U5B61.001.WZS01RJ-P1-C3-T3                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
+* pci3             U5B61.001.WZS01RJ-P1                                         PCI Express Bus
++ fcs4             U5B61.001.WZS01RJ-P1-C1-T0                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi4           U5B61.001.WZS01RJ-P1-C1-T0                                   FC SCSI I/O Controller Protocol Device
+* hdisk7           U5B61.001.WZS01RJ-P1-C1-T0-W500507681217964B-L7000000000000  MPIO IBM 2076 FC Disk
+* hdisk8           U5B61.001.WZS01RJ-P1-C1-T0-W500507681217964B-L8000000000000  MPIO IBM 2076 FC Disk
+* sfwcomm4         U5B61.001.WZS01RJ-P1-C1-T0-W0-L0                             Fibre Channel Storage Framework Comm
+* hdisk0           U5B61.001.WZS01RJ-P1-C1-T0-W500507681217964B-L0              MPIO IBM 2076 FC Disk
+* hdisk1           U5B61.001.WZS01RJ-P1-C1-T0-W500507681217964B-L1000000000000  MPIO IBM 2076 FC Disk
++ fcs5             U5B61.001.WZS01RJ-P1-C1-T1                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi5           U5B61.001.WZS01RJ-P1-C1-T1                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm5         U5B61.001.WZS01RJ-P1-C1-T1-W0-L0                             Fibre Channel Storage Framework Comm
++ fcs6             U5B61.001.WZS01RJ-P1-C1-T2                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi6           U5B61.001.WZS01RJ-P1-C1-T2                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm6         U5B61.001.WZS01RJ-P1-C1-T2-W0-L0                             Fibre Channel Storage Framework Comm
++ fcs7             U5B61.001.WZS01RJ-P1-C1-T3                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi7           U5B61.001.WZS01RJ-P1-C1-T3                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm7         U5B61.001.WZS01RJ-P1-C1-T3-W0-L0                             Fibre Channel Storage Framework Comm
+* vio0                                                                          Virtual I/O Bus
+* ent37            U9080.HEX.78C01A8-V6-C26-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent36            U9080.HEX.78C01A8-V6-C25-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent35            U9080.HEX.78C01A8-V6-C24-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent34            U9080.HEX.78C01A8-V6-C23-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent33            U9080.HEX.78C01A8-V6-C22-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* vfchost99        U9080.HEX.78C01A8-V6-C550                                    Virtual FC Server Adapter
+* vfchost98        U9080.HEX.78C01A8-V6-C549                                    Virtual FC Server Adapter
+* vfchost97        U9080.HEX.78C01A8-V6-C548                                    Virtual FC Server Adapter
+* vfchost96        U9080.HEX.78C01A8-V6-C547                                    Virtual FC Server Adapter
+* vfchost95        U9080.HEX.78C01A8-V6-C546                                    Virtual FC Server Adapter
+* vfchost94        U9080.HEX.78C01A8-V6-C545                                    Virtual FC Server Adapter
+* vfchost93        U9080.HEX.78C01A8-V6-C544                                    Virtual FC Server Adapter
+* vfchost92        U9080.HEX.78C01A8-V6-C543                                    Virtual FC Server Adapter
+* vfchost91        U9080.HEX.78C01A8-V6-C542                                    Virtual FC Server Adapter
+* vfchost90        U9080.HEX.78C01A8-V6-C541                                    Virtual FC Server Adapter
+* vfchost89        U9080.HEX.78C01A8-V6-C540                                    Virtual FC Server Adapter
+* vfchost88        U9080.HEX.78C01A8-V6-C539                                    Virtual FC Server Adapter
+* vfchost87        U9080.HEX.78C01A8-V6-C538                                    Virtual FC Server Adapter
+* vfchost86        U9080.HEX.78C01A8-V6-C537                                    Virtual FC Server Adapter
+* vfchost85        U9080.HEX.78C01A8-V6-C536                                    Virtual FC Server Adapter
+* vfchost84        U9080.HEX.78C01A8-V6-C535                                    Virtual FC Server Adapter
+* vfchost83        U9080.HEX.78C01A8-V6-C534                                    Virtual FC Server Adapter
+* vfchost82        U9080.HEX.78C01A8-V6-C533                                    Virtual FC Server Adapter
+* vfchost81        U9080.HEX.78C01A8-V6-C532                                    Virtual FC Server Adapter
+* vfchost80        U9080.HEX.78C01A8-V6-C531                                    Virtual FC Server Adapter
+* vfchost79        U9080.HEX.78C01A8-V6-C530                                    Virtual FC Server Adapter
+* vfchost78        U9080.HEX.78C01A8-V6-C529                                    Virtual FC Server Adapter
+* vfchost77        U9080.HEX.78C01A8-V6-C528                                    Virtual FC Server Adapter
+* vfchost76        U9080.HEX.78C01A8-V6-C527                                    Virtual FC Server Adapter
+* vfchost75        U9080.HEX.78C01A8-V6-C526                                    Virtual FC Server Adapter
+* vfchost74        U9080.HEX.78C01A8-V6-C525                                    Virtual FC Server Adapter
+* vfchost73        U9080.HEX.78C01A8-V6-C524                                    Virtual FC Server Adapter
+* vfchost72        U9080.HEX.78C01A8-V6-C523                                    Virtual FC Server Adapter
+* vfchost71        U9080.HEX.78C01A8-V6-C522                                    Virtual FC Server Adapter
+* vfchost70        U9080.HEX.78C01A8-V6-C521                                    Virtual FC Server Adapter
+* vfchost69        U9080.HEX.78C01A8-V6-C520                                    Virtual FC Server Adapter
+* vfchost68        U9080.HEX.78C01A8-V6-C519                                    Virtual FC Server Adapter
+* vfchost67        U9080.HEX.78C01A8-V6-C518                                    Virtual FC Server Adapter
+* vfchost66        U9080.HEX.78C01A8-V6-C517                                    Virtual FC Server Adapter
+* vfchost65        U9080.HEX.78C01A8-V6-C516                                    Virtual FC Server Adapter
+* vfchost64        U9080.HEX.78C01A8-V6-C515                                    Virtual FC Server Adapter
+* vfchost63        U9080.HEX.78C01A8-V6-C514                                    Virtual FC Server Adapter
+* vfchost62        U9080.HEX.78C01A8-V6-C513                                    Virtual FC Server Adapter
+* vfchost61        U9080.HEX.78C01A8-V6-C512                                    Virtual FC Server Adapter
+* vfchost60        U9080.HEX.78C01A8-V6-C511                                    Virtual FC Server Adapter
+* vfchost59        U9080.HEX.78C01A8-V6-C510                                    Virtual FC Server Adapter
+* vfchost58        U9080.HEX.78C01A8-V6-C509                                    Virtual FC Server Adapter
+* vfchost57        U9080.HEX.78C01A8-V6-C508                                    Virtual FC Server Adapter
+* vfchost56        U9080.HEX.78C01A8-V6-C507                                    Virtual FC Server Adapter
+* vfchost55        U9080.HEX.78C01A8-V6-C506                                    Virtual FC Server Adapter
+* vfchost54        U9080.HEX.78C01A8-V6-C505                                    Virtual FC Server Adapter
+* vfchost53        U9080.HEX.78C01A8-V6-C504                                    Virtual FC Server Adapter
+* vfchost52        U9080.HEX.78C01A8-V6-C503                                    Virtual FC Server Adapter
+* vfchost51        U9080.HEX.78C01A8-V6-C502                                    Virtual FC Server Adapter
+* vfchost50        U9080.HEX.78C01A8-V6-C501                                    Virtual FC Server Adapter
+* vfchost49        U9080.HEX.78C01A8-V6-C450                                    Virtual FC Server Adapter
+* vfchost48        U9080.HEX.78C01A8-V6-C449                                    Virtual FC Server Adapter
+* vfchost47        U9080.HEX.78C01A8-V6-C448                                    Virtual FC Server Adapter
+* vfchost46        U9080.HEX.78C01A8-V6-C447                                    Virtual FC Server Adapter
+* vfchost45        U9080.HEX.78C01A8-V6-C446                                    Virtual FC Server Adapter
+* vfchost44        U9080.HEX.78C01A8-V6-C445                                    Virtual FC Server Adapter
+* vfchost43        U9080.HEX.78C01A8-V6-C444                                    Virtual FC Server Adapter
+* vfchost42        U9080.HEX.78C01A8-V6-C443                                    Virtual FC Server Adapter
+* vfchost41        U9080.HEX.78C01A8-V6-C442                                    Virtual FC Server Adapter
+* vfchost40        U9080.HEX.78C01A8-V6-C441                                    Virtual FC Server Adapter
+* vfchost39        U9080.HEX.78C01A8-V6-C440                                    Virtual FC Server Adapter
+* vfchost38        U9080.HEX.78C01A8-V6-C439                                    Virtual FC Server Adapter
+* vfchost37        U9080.HEX.78C01A8-V6-C438                                    Virtual FC Server Adapter
+* vfchost36        U9080.HEX.78C01A8-V6-C437                                    Virtual FC Server Adapter
+* vfchost35        U9080.HEX.78C01A8-V6-C436                                    Virtual FC Server Adapter
+* vfchost34        U9080.HEX.78C01A8-V6-C435                                    Virtual FC Server Adapter
+* vfchost33        U9080.HEX.78C01A8-V6-C434                                    Virtual FC Server Adapter
+* vfchost32        U9080.HEX.78C01A8-V6-C433                                    Virtual FC Server Adapter
+* vfchost31        U9080.HEX.78C01A8-V6-C432                                    Virtual FC Server Adapter
+* vfchost30        U9080.HEX.78C01A8-V6-C431                                    Virtual FC Server Adapter
+* vfchost29        U9080.HEX.78C01A8-V6-C430                                    Virtual FC Server Adapter
+* vfchost28        U9080.HEX.78C01A8-V6-C429                                    Virtual FC Server Adapter
+* vfchost27        U9080.HEX.78C01A8-V6-C428                                    Virtual FC Server Adapter
+* vfchost26        U9080.HEX.78C01A8-V6-C427                                    Virtual FC Server Adapter
+* vfchost25        U9080.HEX.78C01A8-V6-C426                                    Virtual FC Server Adapter
+* vfchost24        U9080.HEX.78C01A8-V6-C425                                    Virtual FC Server Adapter
+* vfchost23        U9080.HEX.78C01A8-V6-C424                                    Virtual FC Server Adapter
+* vfchost22        U9080.HEX.78C01A8-V6-C423                                    Virtual FC Server Adapter
+* vfchost21        U9080.HEX.78C01A8-V6-C422                                    Virtual FC Server Adapter
+* vfchost20        U9080.HEX.78C01A8-V6-C421                                    Virtual FC Server Adapter
+* vfchost19        U9080.HEX.78C01A8-V6-C420                                    Virtual FC Server Adapter
+* vfchost18        U9080.HEX.78C01A8-V6-C419                                    Virtual FC Server Adapter
+* vfchost17        U9080.HEX.78C01A8-V6-C418                                    Virtual FC Server Adapter
+* vfchost16        U9080.HEX.78C01A8-V6-C417                                    Virtual FC Server Adapter
+* vfchost15        U9080.HEX.78C01A8-V6-C416                                    Virtual FC Server Adapter
+* vfchost14        U9080.HEX.78C01A8-V6-C415                                    Virtual FC Server Adapter
+* vfchost13        U9080.HEX.78C01A8-V6-C414                                    Virtual FC Server Adapter
+* vfchost12        U9080.HEX.78C01A8-V6-C413                                    Virtual FC Server Adapter
+* vfchost11        U9080.HEX.78C01A8-V6-C412                                    Virtual FC Server Adapter
+* vfchost10        U9080.HEX.78C01A8-V6-C411                                    Virtual FC Server Adapter
+* vfchost9         U9080.HEX.78C01A8-V6-C410                                    Virtual FC Server Adapter
+* vfchost8         U9080.HEX.78C01A8-V6-C409                                    Virtual FC Server Adapter
+* vfchost7         U9080.HEX.78C01A8-V6-C408                                    Virtual FC Server Adapter
+* vfchost6         U9080.HEX.78C01A8-V6-C407                                    Virtual FC Server Adapter
+* vfchost5         U9080.HEX.78C01A8-V6-C406                                    Virtual FC Server Adapter
+* vfchost4         U9080.HEX.78C01A8-V6-C405                                    Virtual FC Server Adapter
+* vfchost3         U9080.HEX.78C01A8-V6-C404                                    Virtual FC Server Adapter
+* vfchost2         U9080.HEX.78C01A8-V6-C403                                    Virtual FC Server Adapter
+* vfchost1         U9080.HEX.78C01A8-V6-C402                                    Virtual FC Server Adapter
+* vfchost0         U9080.HEX.78C01A8-V6-C401                                    Virtual FC Server Adapter
+* vhost49          U9080.HEX.78C01A8-V6-C800                                    Virtual SCSI Server Adapter
+* vhost48          U9080.HEX.78C01A8-V6-C798                                    Virtual SCSI Server Adapter
+* vhost47          U9080.HEX.78C01A8-V6-C796                                    Virtual SCSI Server Adapter
+* vhost46          U9080.HEX.78C01A8-V6-C794                                    Virtual SCSI Server Adapter
+* vhost45          U9080.HEX.78C01A8-V6-C792                                    Virtual SCSI Server Adapter
+* vhost44          U9080.HEX.78C01A8-V6-C790                                    Virtual SCSI Server Adapter
+* vhost43          U9080.HEX.78C01A8-V6-C788                                    Virtual SCSI Server Adapter
+* vhost42          U9080.HEX.78C01A8-V6-C786                                    Virtual SCSI Server Adapter
+* vhost41          U9080.HEX.78C01A8-V6-C784                                    Virtual SCSI Server Adapter
+* vhost40          U9080.HEX.78C01A8-V6-C782                                    Virtual SCSI Server Adapter
+* vhost39          U9080.HEX.78C01A8-V6-C780                                    Virtual SCSI Server Adapter
+* vhost38          U9080.HEX.78C01A8-V6-C778                                    Virtual SCSI Server Adapter
+* vhost37          U9080.HEX.78C01A8-V6-C776                                    Virtual SCSI Server Adapter
+* vhost36          U9080.HEX.78C01A8-V6-C774                                    Virtual SCSI Server Adapter
+* vhost35          U9080.HEX.78C01A8-V6-C772                                    Virtual SCSI Server Adapter
+* vhost34          U9080.HEX.78C01A8-V6-C770                                    Virtual SCSI Server Adapter
+* vhost33          U9080.HEX.78C01A8-V6-C768                                    Virtual SCSI Server Adapter
+* vhost32          U9080.HEX.78C01A8-V6-C766                                    Virtual SCSI Server Adapter
+* vhost31          U9080.HEX.78C01A8-V6-C764                                    Virtual SCSI Server Adapter
+* vhost30          U9080.HEX.78C01A8-V6-C762                                    Virtual SCSI Server Adapter
+* vhost29          U9080.HEX.78C01A8-V6-C760                                    Virtual SCSI Server Adapter
+* vhost28          U9080.HEX.78C01A8-V6-C758                                    Virtual SCSI Server Adapter
+* vhost27          U9080.HEX.78C01A8-V6-C756                                    Virtual SCSI Server Adapter
+* vhost26          U9080.HEX.78C01A8-V6-C754                                    Virtual SCSI Server Adapter
+* vhost25          U9080.HEX.78C01A8-V6-C752                                    Virtual SCSI Server Adapter
+* vhost24          U9080.HEX.78C01A8-V6-C750                                    Virtual SCSI Server Adapter
+* vhost23          U9080.HEX.78C01A8-V6-C748                                    Virtual SCSI Server Adapter
+* vhost22          U9080.HEX.78C01A8-V6-C746                                    Virtual SCSI Server Adapter
+* vhost21          U9080.HEX.78C01A8-V6-C744                                    Virtual SCSI Server Adapter
+* vhost20          U9080.HEX.78C01A8-V6-C742                                    Virtual SCSI Server Adapter
+* vhost19          U9080.HEX.78C01A8-V6-C740                                    Virtual SCSI Server Adapter
+* vhost18          U9080.HEX.78C01A8-V6-C738                                    Virtual SCSI Server Adapter
+* vhost17          U9080.HEX.78C01A8-V6-C736                                    Virtual SCSI Server Adapter
+* vhost16          U9080.HEX.78C01A8-V6-C734                                    Virtual SCSI Server Adapter
+* vhost15          U9080.HEX.78C01A8-V6-C732                                    Virtual SCSI Server Adapter
+* vhost14          U9080.HEX.78C01A8-V6-C730                                    Virtual SCSI Server Adapter
+* vhost13          U9080.HEX.78C01A8-V6-C728                                    Virtual SCSI Server Adapter
+* vhost12          U9080.HEX.78C01A8-V6-C726                                    Virtual SCSI Server Adapter
+* vhost11          U9080.HEX.78C01A8-V6-C724                                    Virtual SCSI Server Adapter
+* vhost10          U9080.HEX.78C01A8-V6-C722                                    Virtual SCSI Server Adapter
+* vhost9           U9080.HEX.78C01A8-V6-C720                                    Virtual SCSI Server Adapter
+* vhost8           U9080.HEX.78C01A8-V6-C718                                    Virtual SCSI Server Adapter
+* vhost7           U9080.HEX.78C01A8-V6-C716                                    Virtual SCSI Server Adapter
+* vhost6           U9080.HEX.78C01A8-V6-C714                                    Virtual SCSI Server Adapter
+* vhost5           U9080.HEX.78C01A8-V6-C712                                    Virtual SCSI Server Adapter
+* vhost4           U9080.HEX.78C01A8-V6-C710                                    Virtual SCSI Server Adapter
+* vhost3           U9080.HEX.78C01A8-V6-C708                                    Virtual SCSI Server Adapter
+* vhost2           U9080.HEX.78C01A8-V6-C706                                    Virtual SCSI Server Adapter
+* vhost1           U9080.HEX.78C01A8-V6-C704                                    Virtual SCSI Server Adapter
+* vhost0           U9080.HEX.78C01A8-V6-C702                                    Virtual SCSI Server Adapter
+* ent27            U9080.HEX.78C01A8-V6-C20-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent26            U9080.HEX.78C01A8-V6-C19-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent25            U9080.HEX.78C01A8-V6-C18-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent24            U9080.HEX.78C01A8-V6-C17-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent23            U9080.HEX.78C01A8-V6-C16-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent22            U9080.HEX.78C01A8-V6-C15-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent21            U9080.HEX.78C01A8-V6-C14-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent20            U9080.HEX.78C01A8-V6-C13-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent19            U9080.HEX.78C01A8-V6-C12-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent18            U9080.HEX.78C01A8-V6-C11-T0                                  Virtual I/O Ethernet Adapter (l-lan)
+* ent17            U9080.HEX.78C01A8-V6-C5-T0                                   Virtual I/O Ethernet Adapter (l-lan)
+* vsa0             U9080.HEX.78C01A8-V6-C0                                      LPAR Virtual Serial Adapter
+* vty0             U9080.HEX.78C01A8-V6-C0-L0                                   Asynchronous Terminal
+* pci2             U5B61.001.WZS01RJ-P1                                         PCI Express Bus
++ ent0             U5B61.001.WZS01RJ-P1-C2-T0                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent1             U5B61.001.WZS01RJ-P1-C2-T1                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent2             U5B61.001.WZS01RJ-P1-C2-T2                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
++ ent3             U5B61.001.WZS01RJ-P1-C2-T3                                   PCIe4 4-port 25/10/1 GbE RoCE SFP28 Adapter x16 (b315211014101207)
+* pci1             U5B61.001.WZS01RJ-P1                                         PCI Express Bus
++ fcs0             U5B61.001.WZS01RJ-P1-C0-T0                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi0           U5B61.001.WZS01RJ-P1-C0-T0                                   FC SCSI I/O Controller Protocol Device
+* hdisk2           U5B61.001.WZS01RJ-P1-C0-T0-W500507681217964D-L2000000000000  MPIO IBM 2076 FC Disk
+* hdisk3           U5B61.001.WZS01RJ-P1-C0-T0-W500507681217964D-L3000000000000  MPIO IBM 2076 FC Disk
+* hdisk4           U5B61.001.WZS01RJ-P1-C0-T0-W500507681217964D-L4000000000000  MPIO IBM 2076 FC Disk
+* hdisk5           U5B61.001.WZS01RJ-P1-C0-T0-W500507681217964D-L5000000000000  MPIO IBM 2076 FC Disk
+* hdisk6           U5B61.001.WZS01RJ-P1-C0-T0-W500507681217964D-L6000000000000  MPIO IBM 2076 FC Disk
+* sfwcomm0         U5B61.001.WZS01RJ-P1-C0-T0-W0-L0                             Fibre Channel Storage Framework Comm
++ fcs1             U5B61.001.WZS01RJ-P1-C0-T1                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi1           U5B61.001.WZS01RJ-P1-C0-T1                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm1         U5B61.001.WZS01RJ-P1-C0-T1-W0-L0                             Fibre Channel Storage Framework Comm
++ fcs2             U5B61.001.WZS01RJ-P1-C0-T2                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi2           U5B61.001.WZS01RJ-P1-C0-T2                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm2         U5B61.001.WZS01RJ-P1-C0-T2-W0-L0                             Fibre Channel Storage Framework Comm
++ fcs3             U5B61.001.WZS01RJ-P1-C0-T3                                   PCIe4 4-Port 32Gb FC Adapter (771089201410c606)
+* fscsi3           U5B61.001.WZS01RJ-P1-C0-T3                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm3         U5B61.001.WZS01RJ-P1-C0-T3-W0-L0                             Fibre Channel Storage Framework Comm
++ L2cache0                                                                      L2 Cache
++ mem0                                                                          Memory
++ proc0                                                                         Processor
++ proc8                                                                         Processor
++ proc16                                                                        Processor
++ proc24                                                                        Processor
+FC info: 
+FIBRE CHANNEL STATISTICS REPORT: fcs4
+Device Type: PCIe4 4-Port 32Gb FC Adapter (771089201410c606) (adapter/pciex/771089201410c60)
+World Wide Node Name: 0x2000F4C7AA6521E4
+World Wide Port Name: 0x2100F4C7AA6521E4
+Port Speed (supported): 32 GBIT
+Port Speed (running):   32 GBIT
+Port FC ID: 0xda0200
+Port Type: Fabric
+Attention Type:   Link Up
+FIBRE CHANNEL STATISTICS REPORT: fcs5
+Device Type: PCIe4 4-Port 32Gb FC Adapter (771089201410c606) (adapter/pciex/771089201410c60)
+World Wide Node Name: 0x2000F4C7AA6521E5
+World Wide Port Name: 0x2100F4C7AA6521E5
+Port Speed (supported): 32 GBIT
+Port Speed (running):   32 GBIT
+Port FC ID: 0x120780
+Port Type: Fabric
+Attention Type:   Link Up
+FIBRE CHANNEL STATISTICS REPORT: fcs0
+Device Type: PCIe4 4-Port 32Gb FC Adapter (771089201410c606) (adapter/pciex/771089201410c60)
+World Wide Node Name: 0x2000F4C7AA6521D8
+World Wide Port Name: 0x2100F4C7AA6521D8
+Port Speed (supported): 32 GBIT
+Port Speed (running):   32 GBIT
+Port FC ID: 0xda0200
+Port Type: Fabric
+Attention Type:   Link Up
+FIBRE CHANNEL STATISTICS REPORT: fcs1
+Device Type: PCIe4 4-Port 32Gb FC Adapter (771089201410c606) (adapter/pciex/771089201410c60)
+World Wide Node Name: 0x2000F4C7AA6521D9
+World Wide Port Name: 0x2100F4C7AA6521D9
+Port Speed (supported): 32 GBIT
+Port Speed (running):   32 GBIT
+Port FC ID: 0x124740
+Port Type: Fabric
+Attention Type:   Link Up
+FIBRE CHANNEL STATISTICS REPORT: fcs2
+Device Type: PCIe4 4-Port 32Gb FC Adapter (771089201410c606) (adapter/pciex/771089201410c60)
+World Wide Node Name: 0x2000F4C7AA6521DA
+World Wide Port Name: 0x2100F4C7AA6521DA
+Port Speed (supported): 32 GBIT
+Port Speed (running):   32 GBIT
+Port FC ID: 0x12a740
+Port Type: Fabric
+Attention Type:   Link Up
+NPIV map info: 
+vfchost0:U9080.HEX.78C01A8-V6-C401:110: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost1:U9080.HEX.78C01A8-V6-C402:111: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost2:U9080.HEX.78C01A8-V6-C403:112: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost3:U9080.HEX.78C01A8-V6-C404:113: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost4:U9080.HEX.78C01A8-V6-C405:114: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost5:U9080.HEX.78C01A8-V6-C406:115: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost6:U9080.HEX.78C01A8-V6-C407:116: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost7:U9080.HEX.78C01A8-V6-C408:117: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost8:U9080.HEX.78C01A8-V6-C409:118: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost9:U9080.HEX.78C01A8-V6-C410:119: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost10:U9080.HEX.78C01A8-V6-C411:120: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost11:U9080.HEX.78C01A8-V6-C412:121: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost12:U9080.HEX.78C01A8-V6-C413:122: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost13:U9080.HEX.78C01A8-V6-C414:123: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost14:U9080.HEX.78C01A8-V6-C415:124: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost15:U9080.HEX.78C01A8-V6-C416:125: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost16:U9080.HEX.78C01A8-V6-C417:126: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost17:U9080.HEX.78C01A8-V6-C418:127: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost18:U9080.HEX.78C01A8-V6-C419:128: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost19:U9080.HEX.78C01A8-V6-C420:129: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost20:U9080.HEX.78C01A8-V6-C421:130: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost21:U9080.HEX.78C01A8-V6-C422:131: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost22:U9080.HEX.78C01A8-V6-C423:132: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost23:U9080.HEX.78C01A8-V6-C424:133: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost24:U9080.HEX.78C01A8-V6-C425:134: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost25:U9080.HEX.78C01A8-V6-C426:135: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost26:U9080.HEX.78C01A8-V6-C427:136: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost27:U9080.HEX.78C01A8-V6-C428:137: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost28:U9080.HEX.78C01A8-V6-C429:138: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost29:U9080.HEX.78C01A8-V6-C430:139: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost30:U9080.HEX.78C01A8-V6-C431:140: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost31:U9080.HEX.78C01A8-V6-C432:141: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost32:U9080.HEX.78C01A8-V6-C433:142: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost33:U9080.HEX.78C01A8-V6-C434:143: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost34:U9080.HEX.78C01A8-V6-C435:144: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost35:U9080.HEX.78C01A8-V6-C436:145: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost36:U9080.HEX.78C01A8-V6-C437:146: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost37:U9080.HEX.78C01A8-V6-C438:147: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost38:U9080.HEX.78C01A8-V6-C439:148: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost39:U9080.HEX.78C01A8-V6-C440:149: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost40:U9080.HEX.78C01A8-V6-C441:150: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost41:U9080.HEX.78C01A8-V6-C442:151: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost42:U9080.HEX.78C01A8-V6-C443:152: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost43:U9080.HEX.78C01A8-V6-C444:153: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost44:U9080.HEX.78C01A8-V6-C445:154: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost45:U9080.HEX.78C01A8-V6-C446:155: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost46:U9080.HEX.78C01A8-V6-C447:156: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost47:U9080.HEX.78C01A8-V6-C448:157: :fcs5:U5B61.001.WZS01RJ-P1-C1-T1: : :NOT_LOGGED_IN
+vfchost48:U9080.HEX.78C01A8-V6-C449:158: :fcs1:U5B61.001.WZS01RJ-P1-C0-T1: : :NOT_LOGGED_IN
+vfchost49:U9080.HEX.78C01A8-V6-C450:159: :fcs2:U5B61.001.WZS01RJ-P1-C0-T2: : :NOT_LOGGED_IN
+vfchost50:U9080.HEX.78C01A8-V6-C501:110: : : : : :NOT_LOGGED_IN
+vfchost51:U9080.HEX.78C01A8-V6-C502:111: : : : : :NOT_LOGGED_IN
+vfchost52:U9080.HEX.78C01A8-V6-C503:112: : : : : :NOT_LOGGED_IN
+vfchost53:U9080.HEX.78C01A8-V6-C504:113: : : : : :NOT_LOGGED_IN
+vfchost54:U9080.HEX.78C01A8-V6-C505:114: : : : : :NOT_LOGGED_IN
+vfchost55:U9080.HEX.78C01A8-V6-C506:115: : : : : :NOT_LOGGED_IN
+vfchost56:U9080.HEX.78C01A8-V6-C507:116: : : : : :NOT_LOGGED_IN
+vfchost57:U9080.HEX.78C01A8-V6-C508:117: : : : : :NOT_LOGGED_IN
+vfchost58:U9080.HEX.78C01A8-V6-C509:118: : : : : :NOT_LOGGED_IN
+vfchost59:U9080.HEX.78C01A8-V6-C510:119: : : : : :NOT_LOGGED_IN
+vfchost60:U9080.HEX.78C01A8-V6-C511:120: : : : : :NOT_LOGGED_IN
+vfchost61:U9080.HEX.78C01A8-V6-C512:121: : : : : :NOT_LOGGED_IN
+vfchost62:U9080.HEX.78C01A8-V6-C513:122: : : : : :NOT_LOGGED_IN
+vfchost63:U9080.HEX.78C01A8-V6-C514:123: : : : : :NOT_LOGGED_IN
+vfchost64:U9080.HEX.78C01A8-V6-C515:124: : : : : :NOT_LOGGED_IN
+vfchost65:U9080.HEX.78C01A8-V6-C516:125: : : : : :NOT_LOGGED_IN
+vfchost66:U9080.HEX.78C01A8-V6-C517:126: : : : : :NOT_LOGGED_IN
+vfchost67:U9080.HEX.78C01A8-V6-C518:127: : : : : :NOT_LOGGED_IN
+vfchost68:U9080.HEX.78C01A8-V6-C519:128: : : : : :NOT_LOGGED_IN
+vfchost69:U9080.HEX.78C01A8-V6-C520:129: : : : : :NOT_LOGGED_IN
+vfchost70:U9080.HEX.78C01A8-V6-C521:130: : : : : :NOT_LOGGED_IN
+vfchost71:U9080.HEX.78C01A8-V6-C522:131: : : : : :NOT_LOGGED_IN
+vfchost72:U9080.HEX.78C01A8-V6-C523:132: : : : : :NOT_LOGGED_IN
+vfchost73:U9080.HEX.78C01A8-V6-C524:133: : : : : :NOT_LOGGED_IN
+vfchost74:U9080.HEX.78C01A8-V6-C525:134: : : : : :NOT_LOGGED_IN
+vfchost75:U9080.HEX.78C01A8-V6-C526:135: : : : : :NOT_LOGGED_IN
+vfchost76:U9080.HEX.78C01A8-V6-C527:136: : : : : :NOT_LOGGED_IN
+vfchost77:U9080.HEX.78C01A8-V6-C528:137: : : : : :NOT_LOGGED_IN
+vfchost78:U9080.HEX.78C01A8-V6-C529:138: : : : : :NOT_LOGGED_IN
+vfchost79:U9080.HEX.78C01A8-V6-C530:139: : : : : :NOT_LOGGED_IN
+vfchost80:U9080.HEX.78C01A8-V6-C531:140: : : : : :NOT_LOGGED_IN
+vfchost81:U9080.HEX.78C01A8-V6-C532:141: : : : : :NOT_LOGGED_IN
+vfchost82:U9080.HEX.78C01A8-V6-C533:142: : : : : :NOT_LOGGED_IN
+vfchost83:U9080.HEX.78C01A8-V6-C534:143: : : : : :NOT_LOGGED_IN
+vfchost84:U9080.HEX.78C01A8-V6-C535:144: : : : : :NOT_LOGGED_IN
+vfchost85:U9080.HEX.78C01A8-V6-C536:145: : : : : :NOT_LOGGED_IN
+vfchost86:U9080.HEX.78C01A8-V6-C537:146: : : : : :NOT_LOGGED_IN
+vfchost87:U9080.HEX.78C01A8-V6-C538:147: : : : : :NOT_LOGGED_IN
+vfchost88:U9080.HEX.78C01A8-V6-C539:148: : : : : :NOT_LOGGED_IN
+vfchost89:U9080.HEX.78C01A8-V6-C540:149: : : : : :NOT_LOGGED_IN
+vfchost90:U9080.HEX.78C01A8-V6-C541:150: : : : : :NOT_LOGGED_IN
+vfchost91:U9080.HEX.78C01A8-V6-C542:151: : : : : :NOT_LOGGED_IN
+vfchost92:U9080.HEX.78C01A8-V6-C543:152: : : : : :NOT_LOGGED_IN
+vfchost93:U9080.HEX.78C01A8-V6-C544:153: : : : : :NOT_LOGGED_IN
+vfchost94:U9080.HEX.78C01A8-V6-C545:154: : : : : :NOT_LOGGED_IN
+vfchost95:U9080.HEX.78C01A8-V6-C546:155: : : : : :NOT_LOGGED_IN
+vfchost96:U9080.HEX.78C01A8-V6-C547:156: : : : : :NOT_LOGGED_IN
+vfchost97:U9080.HEX.78C01A8-V6-C548:157: : : : : :NOT_LOGGED_IN
+vfchost98:U9080.HEX.78C01A8-V6-C549:158: : : : : :NOT_LOGGED_IN
+vfchost99:U9080.HEX.78C01A8-V6-C550:159: : : : : :NOT_LOGGED_IN
+vSCSI map info: 
+vhost0:U9080.HEX.78C01A8-V6-C702:0x0000006e: : : : : : 
+vhost1:U9080.HEX.78C01A8-V6-C704:0x0000006f: : : : : : 
+vhost2:U9080.HEX.78C01A8-V6-C706:0x00000070: : : : : : 
+vhost3:U9080.HEX.78C01A8-V6-C708:0x00000071: : : : : : 
+vhost4:U9080.HEX.78C01A8-V6-C710:0x00000072: : : : : : 
+vhost5:U9080.HEX.78C01A8-V6-C712:0x00000073: : : : : : 
+vhost6:U9080.HEX.78C01A8-V6-C714:0x00000074: : : : : : 
+vhost7:U9080.HEX.78C01A8-V6-C716:0x00000075: : : : : : 
+vhost8:U9080.HEX.78C01A8-V6-C718:0x00000076: : : : : : 
+vhost9:U9080.HEX.78C01A8-V6-C720:0x00000077: : : : : : 
+vhost10:U9080.HEX.78C01A8-V6-C722:0x00000078: : : : : : 
+vhost11:U9080.HEX.78C01A8-V6-C724:0x00000079: : : : : : 
+vhost12:U9080.HEX.78C01A8-V6-C726:0x0000007a: : : : : : 
+vhost13:U9080.HEX.78C01A8-V6-C728:0x0000007b: : : : : : 
+vhost14:U9080.HEX.78C01A8-V6-C730:0x0000007c: : : : : : 
+vhost15:U9080.HEX.78C01A8-V6-C732:0x0000007d: : : : : : 
+vhost16:U9080.HEX.78C01A8-V6-C734:0x0000007e: : : : : : 
+vhost17:U9080.HEX.78C01A8-V6-C736:0x0000007f: : : : : : 
+vhost18:U9080.HEX.78C01A8-V6-C738:0x00000080: : : : : : 
+vhost19:U9080.HEX.78C01A8-V6-C740:0x00000081: : : : : : 
+vhost20:U9080.HEX.78C01A8-V6-C742:0x00000082: : : : : : 
+vhost21:U9080.HEX.78C01A8-V6-C744:0x00000083: : : : : : 
+vhost22:U9080.HEX.78C01A8-V6-C746:0x00000084: : : : : : 
+vhost23:U9080.HEX.78C01A8-V6-C748:0x00000085: : : : : : 
+vhost24:U9080.HEX.78C01A8-V6-C750:0x00000086: : : : : : 
+vhost25:U9080.HEX.78C01A8-V6-C752:0x00000087: : : : : : 
+vhost26:U9080.HEX.78C01A8-V6-C754:0x00000088: : : : : : 
+vhost27:U9080.HEX.78C01A8-V6-C756:0x00000089: : : : : : 
+vhost28:U9080.HEX.78C01A8-V6-C758:0x0000008a: : : : : : 
+vhost29:U9080.HEX.78C01A8-V6-C760:0x0000008b: : : : : : 
+vhost30:U9080.HEX.78C01A8-V6-C762:0x0000008c: : : : : : 
+vhost31:U9080.HEX.78C01A8-V6-C764:0x0000008d: : : : : : 
+vhost32:U9080.HEX.78C01A8-V6-C766:0x0000008e: : : : : : 
+vhost33:U9080.HEX.78C01A8-V6-C768:0x0000008f: : : : : : 
+vhost34:U9080.HEX.78C01A8-V6-C770:0x00000090: : : : : : 
+vhost35:U9080.HEX.78C01A8-V6-C772:0x00000091: : : : : : 
+vhost36:U9080.HEX.78C01A8-V6-C774:0x00000092: : : : : : 
+vhost37:U9080.HEX.78C01A8-V6-C776:0x00000093: : : : : : 
+vhost38:U9080.HEX.78C01A8-V6-C778:0x00000094: : : : : : 
+vhost39:U9080.HEX.78C01A8-V6-C780:0x00000095: : : : : : 
+vhost40:U9080.HEX.78C01A8-V6-C782:0x00000096: : : : : : 
+vhost41:U9080.HEX.78C01A8-V6-C784:0x00000097: : : : : : 
+vhost42:U9080.HEX.78C01A8-V6-C786:0x00000098: : : : : : 
+vhost43:U9080.HEX.78C01A8-V6-C788:0x00000099: : : : : : 
+vhost44:U9080.HEX.78C01A8-V6-C790:0x0000009a: : : : : : 
+vhost45:U9080.HEX.78C01A8-V6-C792:0x0000009b: : : : : : 
+vhost46:U9080.HEX.78C01A8-V6-C794:0x0000009c: : : : : : 
+vhost47:U9080.HEX.78C01A8-V6-C796:0x0000009d: : : : : : 
+vhost48:U9080.HEX.78C01A8-V6-C798:0x0000009e: : : : : : 
+vhost49:U9080.HEX.78C01A8-V6-C800:0x0000009f: : : : : : 
+running lssea on P10VIOF043B | IBM,0278C01A8 | ioslevel 4.1.1.00 | 2.0 20200108 | Tue May  6 10:45:50 HKT 2025
+Virtual ethernet adapters are : en17
+mtu_bypass : on
+netaddr : 192.168.214.6
++------------------------------------------------------+
+SEA : [m ent28 [m
+ha_mode              : Sharing
+state                : [mBACKUP_SH[m
+number of adapters   : 5
+become backup/primary: 1/0
+priority             : 2
+vlans                : 11 12 13 14 101 102 103 104 105 106 107 108 111 112 113 114 121 124 132 138 139 150 151 189 201 203 205 245 301 302 303 304 305 306 307 308 309 310 311 312 313 314 317 318 326 333 335 336 337 338 339 340 342 343 344 346 347 401 402 403 404 405 406 410 411 520 521 603 606 720 722 820 
+flags                :  THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING 
++------------------------------------------------------+
+[m ETHERCHANNEL [m
+adapter phys_adapters                  mode       hash_mode       jumbo     
+------- -------------                  ----       ---------       -----     
+ent16   ent0,ent1,ent4,ent5            8023ad     src_dst_port    no        
+[m REAL ADAPTERS [m
+adapter slot hardware_path                  link selected_speed        running_speed         actor_system      actor_sync  partner_system    partner_port partner_sync
+------- ---- -------------                  ---- --------------        -------------         ------------      ----------  --------------    ------------ ------------
+ent0    C2   U5B61.001.WZS01RJ-P1-C2-T0     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m B8-E9-24-E2-9C-44 [mIN_SYNC    [m 48-1B-A4-B0-70-0B 0x0171       [mIN_SYNC    [m
+ent1    C2   U5B61.001.WZS01RJ-P1-C2-T1     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m B8-E9-24-E2-9C-44 [mIN_SYNC    [m 00-00-00-00-00-00 0x0000       [mOUT_OF_SYNC[m
+ent4    C3   U5B61.001.WZS01RJ-P1-C3-T0     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m B8-E9-24-E2-9C-44 [mIN_SYNC    [m 48-1B-A4-B0-70-0B 0x0179       [mIN_SYNC    [m
+ent5    C3   U5B61.001.WZS01RJ-P1-C3-T1     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m B8-E9-24-E2-9C-44 [mIN_SYNC    [m 00-00-00-00-00-00 0x0000       [mOUT_OF_SYNC[m
+[m VIRTUAL ADAPTERS [m
+adapter slot hardware_path                  priority active port_vlan_id  vswitch         mode    vlan_tags_ids 
+------- ---- -------------                  -------- ------ ------------  -------         ----    ------------- 
+ent18   C11  U9080.HEX.78C01A8-V6-C11-T0    2        [mFalse [m 11            F04VIOS3        VEB     2
+ent19   C12  U9080.HEX.78C01A8-V6-C12-T0    2        [mFalse [m 12            F04VIOS3        VEB     104,106,138,150,302,304,306,308,310,312,314,318,326,336,338,340,342,344,346,402
+ent20   C13  U9080.HEX.78C01A8-V6-C13-T0    2        [mTrue  [m 13            F04VIOS3        VEB     111,317,333,335,337,339,343,347,401,403,405,411,521,603
+ent21   C14  U9080.HEX.78C01A8-V6-C14-T0    2        [mTrue  [m 14            F04VIOS3        VEB     102,108,112,114,124,132,404,406,410,520,606,720,722,820
+[m NO CONTROL CHANNEL [m
+ctl_chan port_vlan_id: 4095
++------------------------------------------------------+
+SEA : [m ent29 [m
+ha_mode              : Auto
+state                : [mPRIMARY[m
+number of adapters   : 2
+become backup/primary: 1/1
+priority             : 1
+vlans                : 924 
+flags                :  THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING 
++------------------------------------------------------+
+[m REAL ADAPTERS [m
+adapter slot hardware_path                  link selected_speed        running_speed        
+------- ---- -------------                  ---- --------------        -------------        
+ent3    C2   U5B61.001.WZS01RJ-P1-C2-T3     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m                   [m           [m                                [m           [m
+[m VIRTUAL ADAPTERS [m
+adapter slot hardware_path                  priority active port_vlan_id  vswitch         mode    vlan_tags_ids 
+------- ---- -------------                  -------- ------ ------------  -------         ----    ------------- 
+ent22   C15  U9080.HEX.78C01A8-V6-C15-T0    1        [mTrue  [m 924           F04VIOS3        VEB     1
+[m NO CONTROL CHANNEL [m
+ctl_chan port_vlan_id: 4095
++------------------------------------------------------+
+SEA : [m ent30 [m
+ha_mode              : Auto
+state                : [mBACKUP[m
+number of adapters   : 4
+become backup/primary: 1/0
+priority             : 2
+vlans                : 16 17 18 109 110 111 112 113 114 115 116 122 152 153 190 204 315 316 317 319 320 321 322 323 324 325 327 328 329 330 331 332 334 341 407 408 409 412 507 520 522 603 605 606 607 608 705 716 717 720 721 722 805 820 821 822 
+flags                :  THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING 
++------------------------------------------------------+
+[m REAL ADAPTERS [m
+adapter slot hardware_path                  link selected_speed        running_speed        
+------- ---- -------------                  ---- --------------        -------------        
+ent7    C3   U5B61.001.WZS01RJ-P1-C3-T3     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m                   [m           [m                                [m           [m
+[m VIRTUAL ADAPTERS [m
+adapter slot hardware_path                  priority active port_vlan_id  vswitch         mode    vlan_tags_ids 
+------- ---- -------------                  -------- ------ ------------  -------         ----    ------------- 
+ent23   C16  U9080.HEX.78C01A8-V6-C16-T0    2        [mFalse [m 16            UAT-F04VIOS3    VEB     2
+ent24   C17  U9080.HEX.78C01A8-V6-C17-T0    2        [mFalse [m 17            UAT-F04VIOS3    VEB     316,319,320,321,322,323,324,330,331,332,334,407,408,409,520,606,716,720,722,805
+ent25   C18  U9080.HEX.78C01A8-V6-C18-T0    2        [mFalse [m 18            UAT-F04VIOS3    VEB     152,153,190,341,412,522,607,608,717,721,820,821,822
+[m NO CONTROL CHANNEL [m
+ctl_chan port_vlan_id: 4095
++------------------------------------------------------+
+SEA : [m ent31 [m
+ha_mode              : Auto
+state                : [mPRIMARY[m
+number of adapters   : 2
+become backup/primary: 1/1
+priority             : 1
+vlans                : 923 
+flags                :  THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING 
++------------------------------------------------------+
+[m REAL ADAPTERS [m
+adapter slot hardware_path                  link selected_speed        running_speed        
+------- ---- -------------                  ---- --------------        -------------        
+ent11   C4   U5B61.001.WZS01RJ-P1-C4-T3     [mUp  [m not_applicable        [m10_Gbps_Full_Duplex  [m                   [m           [m                                [m           [m
+[m VIRTUAL ADAPTERS [m
+adapter slot hardware_path                  priority active port_vlan_id  vswitch         mode    vlan_tags_ids 
+------- ---- -------------                  -------- ------ ------------  -------         ----    ------------- 
+ent26   C19  U9080.HEX.78C01A8-V6-C19-T0    1        [mTrue  [m 923           F04VIOS3        VEB     1
+[m NO CONTROL CHANNEL [m
+ctl_chan port_vlan_id: 4095
++------------------------------------------------------+
+SEA : [m ent32 [m
+ha_mode              : Auto
+state                : [mBACKUP[m
+number of adapters   : 2
+become backup/primary: 2/0
+priority             : 2
+vlans                : 20 
+flags                :  THREAD  LARGESEND  LARGE_RECEIVE  ACCOUNTING 
++------------------------------------------------------+
+[m REAL ADAPTERS [m
+adapter slot hardware_path                  link selected_speed        running_speed        
+------- ---- -------------                  ---- --------------        -------------        
+ent13   C5   U5B61.001.WZS01RJ-P1-C5-T1     [mUp  [m not_applicable        [m1_Gbps_Full_Duplex   [m                   [m           [m                                [m           [m
+[m VIRTUAL ADAPTERS [m
+adapter slot hardware_path                  priority active port_vlan_id  vswitch         mode    vlan_tags_ids 
+------- ---- -------------                  -------- ------ ------------  -------         ----    ------------- 
+ent27   C20  U9080.HEX.78C01A8-V6-C20-T0    2        [mFalse [m 20            F04VIOS3        VEB     2
+[m NO CONTROL CHANNEL [m
+ctl_chan port_vlan_id: 4095
